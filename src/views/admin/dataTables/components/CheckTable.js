@@ -1,22 +1,6 @@
-import {
-  Flex,
-  Table,
-  Checkbox,
-  Tbody,
-  Td,
-  Text,
-  Th,
-  Thead,
-  Tr,
-  useColorModeValue,
-} from "@chakra-ui/react";
+import {Flex,Table,Checkbox,Tbody,Td,Text,Th,Thead,Tr,useColorModeValue,} from "@chakra-ui/react";
 import React, { useMemo } from "react";
-import {
-  useGlobalFilter,
-  usePagination,
-  useSortBy,
-  useTable,
-} from "react-table";
+import {useGlobalFilter,usePagination,useSortBy,useTable,} from "react-table";
 
 // Custom components
 import Card from "components/card/Card";
